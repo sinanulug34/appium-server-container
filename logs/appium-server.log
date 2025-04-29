@@ -1,0 +1,14 @@
+2025-04-29 20:14:52:666 [Appium] Welcome to Appium v2.18.0
+2025-04-29 20:14:52:668 [Appium] Non-default server args:
+2025-04-29 20:14:52:669 [Appium] { logTimestamp: true }
+2025-04-29 20:14:52:669 [Appium] The autodetected Appium home path: /root/.appium
+2025-04-29 20:14:52:675 [Appium] Appium REST http interface listener started on http://0.0.0.0:4723
+2025-04-29 20:14:52:676 [Appium] You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:4723/ (only accessible from the same host)
+	http://172.18.0.2:4723/
+2025-04-29 20:14:52:676 [Appium] No drivers have been installed in /root/.appium. Use the "appium driver" command to install the one(s) you want to use.
+2025-04-29 20:14:52:676 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2025-04-29 20:14:58:275 [HTTP] --> GET /status {}
+2025-04-29 20:14:58:277 [AppiumDriver@54b1] Calling AppiumDriver.getStatus() with args: []
+2025-04-29 20:14:58:280 [AppiumDriver@54b1] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.18.0"}}
+2025-04-29 20:14:58:285 [HTTP] <-- GET /status 200 8 ms - 111 

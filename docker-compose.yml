@@ -1,0 +1,21 @@
+services:
+  appium:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: appium-server
+    ports:
+      - "4723:4723"
+    privileged: true
+    volumes:
+      - ./logs:/appium/logs
+      - /dev/bus/usb:/dev/bus/usb
+    environment:
+      - ANDROID_HOME=/opt/android-sdk
+    restart: unless-stopped
+    networks:
+      - appium-network
+
+networks:
+  appium-network:
+    driver: bridge
